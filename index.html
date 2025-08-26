@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar SLIMI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/lux/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <main style="display: flex; flex-direction: column; min-height: 89vh;">
+      <header>
+        <nav>
+          <ul class="container nav">
+            <li class="nav-item active rounded" id="pré">Présentation</li>
+            <li class="nav-item rounded" id="edu">Éducation et Expérience</li>
+            <li class="nav-item rounded" id="rea">Réalisations</li>
+            <li class="nav-item rounded" id="cont">Contact</li>
+          </ul>
+        </nav>
+      </header>
+      <section id="section1" class="d-flex flex-column justify-content-center" style="flex-grow: 1;">
+        <div class="container d-flex justify-content-center pt-5">
+          <div class="card border-0">
+            <div class="row">
+              <div class="col-md-3 align-self-center text-start">
+                <img src="assets/img/IMG_3655.jpg" alt="mon bitmoji">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <div class="text-center">
+                    <h5 class="card-title">OMAR SLIMI</h5>
+                    <h5 class="text-danger">Étudiant en 2ᵉ année d'école informatique à l'esgi paris</h5>
+                  </div>
+                  <p class="card-text pt-5">
+Motivé, curieux et à l’écoute, je souhaite renforcer mes compétences en développement à travers des projets concrets en entreprise.
+                  </p>
+                  <p>
+                    Mon parcours m’a permis d’explorer différents aspects du développement : une formation en développement web et web mobile, une autre plus courte pour découvrir React Native, puis mon cursus à l’ESGI où je poursuis actuellement ma deuxième année. Ces expériences m’ont donné l’occasion de travailler sur divers projets et de confirmer mon choix de poursuivre dans ce domaine.
+                  </p>
+                  <p>
+                    Je suis actuellement à la recherche d'une alternance / stage en Ile de france
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+          <button class="btn btn-primary rounded me-5" data-bs-toggle="modal" data-bs-target="#seeCV">VOIR CV</button>
+          <button class="btn btn-primary rounded" onclick="downloadFile('assets/img/SLIMI OMAR - CV.pdf')" >
+            <i class="fs-4 bi bi-download"></i> TÉLÉCHARGER CV
+          </button>
+        </div>
+      </section>
+      <section id="section3" class="d-none d-flex flex-column justify-content-center" style="flex-grow: 1;">
+        <div class="container d-flex justify-content-center pt-5">
+          <div class="container">
+            <div class="row pt-5">
+              <div class="col-6">
+                <h2 class="text-center pb-5">PARCOURS SCOLAIRE</h2>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <span class="text-danger">2023&nbsp;</span>Cycle bachelor ESGI
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <h4 class="py-3 text-center">ESGI, ÉCOLE SUPÉRIEURE DE GÉNIE INFORMATIQUE (PARIS)</h4>
+                        <ul>
+                          <li>1ère année initiale | obtenue </li>
+                          <li>2ème année | en cours </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class="text-danger">2022&nbsp;</span>Formation POEC Application mobile
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <h4 class="py-3 text-center">LA MANU, ÉCOLE DES MÉTIERS DU NUMÉRIQUE (COMPIÈGNE)</h4>
+                        <ul>
+                          <li>Maîtriser le framework React-Native</li>
+                          <li>Connaître et savoir mettre en œuvre les méthodes agiles (Scrum)</li>
+                          <li>Savoir maquetter une application mobile</li>
+                          <li>Acquérir les principes de la programmation orientée objet</li>
+                          <li>Comprendre, connaître les bases de la gestion de projet web</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="text-danger">2021 - 2022&nbsp;</span>Formation Développeur web et web mobile
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <h4 class="py-3 text-center">LA MANU, ÉCOLE DES MÉTIERS DU NUMÉRIQUE (NOYON)</h4>
+                        <ul>
+                          <li>Création de site web en utilisant HTML / CSS / Javascript.</li>
+                          <li>Sensibilisation aux bonnes pratiques en développement web (référencement, accessibilité…).</li>
+                          <li>Création d’un site web en utilisant WordPress.</li>
+                          <li>Utilisation du Framework Bootstrap.</li>
+                          <li>Développement des connaissances de bases en PHP</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="text-danger">2020&nbsp;</span>Baccalauréat Technologique
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <h4 class="py-3 text-center">Lycée Mireille Grenet - (COMPIÈGNE)</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <h2 class="text-center pb-5">EXPÉRIENCES PROFESSIONNELLES</h2>
+                <ul class="timeline">
+                  <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">Facteur LaPoste</h5>
+                    <p class="text-muted mb-2 fw-bold">1 DEC 2023 - EN COURS</p>
+                    <p class="text-muted">Montrouge (92)</p>
+                  </li>
+                  <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">Agent de conditionnement Herta</h5>
+                    <p class="text-muted mb-2 fw-bold">7 AOÛT 2023 - 8 SEPT 2023</p>
+                    <p class="text-muted">Le Meux (60)</p>
+                  </li>
+                  <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">Agent de tri Fedex</h5>
+                    <p class="text-muted mb-2 fw-bold">18 JUILLET 2022 - 21 AOÛT 2022</p>
+                    <p class="text-muted">Longueil-Sainte-Marie (60)</p>
+                  </li>
+                  <li class="timeline-item mb-5">
+                    <h5 class="fw-bold">Préparateur de commandes Stockomani</h5>
+                    <p class="text-muted mb-2 fw-bold">21 MAI 2021 - 15 OCTOBRE 2021</p>
+                    <p class="text-muted">Longueil-Sainte-Marie (60)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <section id="section4" class="d-none">
+        <div class="container pt-5">
+          <div class="row g-4 justify-content-center">
+            <!-- Projet 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card project-card h-100">
+                <img src="assets/img/Space invader.png" class="card-img-top project-img" alt="Projet 1">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Space invader</h5>
+                  <div class="mb-3">
+                    <span class="badge bg-primary me-2">Langage C</span>
+                    <span class="badge bg-primary me-2">SDL 1.2</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Développement d’un jeu en langage c via SDL 1.2.
+Affichage graphique, gestion des collisions et interactions
+joueur.
+</p>
+                  <a href="https://github.com/omarslimi/2ESGI_LangageC_Space_Invader" target="_blank" class="btn btn-outline-primary mt-auto">
+                    <i class="bi bi-github"></i> Voir sur GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Projet 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card project-card h-100">
+                <img src="assets/img/1esgi web.png" class="card-img-top project-img" alt="Projet 2">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">GAME OVER</h5>
+                  <div class="mb-3">
+                    <span class="badge bg-primary me-2">HTML</span>
+                    <span class="badge bg-primary me-2">CSS</span>
+                    <span class="badge bg-primary me-2">Bootstrap</span>
+                    <span class="badge bg-primary me-2">PHP</span>
+                    <span class="badge bg-primary me-2">JavaScript</span>
+                    <span class="badge bg-primary me-2">MySQL</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Création d’un site web dynamique (PHP, MySQL, HTML/CSS,
+JavaScript) avec hébergement sur serveur distant et
+sécurisation des accès utilisateurs.</p>
+                  <a href="https://github.com/omarslimi/PA_Game_Over" target="_blank" class="btn btn-outline-primary mt-auto">
+                    <i class="bi bi-github"></i> Voir sur GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Projet 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card project-card h-100">
+                <img src="assets/img/pokdex.png" class="card-img-top project-img" alt="Projet 4">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Pokedex</h5>
+                  <div class="mb-3">
+                    <span class="badge bg-primary me-2">HTML</span>
+                    <span class="badge bg-primary me-2">CSS</span>
+                    <span class="badge bg-primary me-2">PHP</span>
+                    <span class="badge bg-primary me-2">MySQL</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Projet réalisé en première année d’informatique à l’ESGI, dans le cadre du cours de développement web. L’objectif était de créer un mini Pokédex avec gestion d’utilisateurs et ajout de Pokémon.</p>
+                  <a href="https://github.com/omarslimi/Pokedex" target="_blank" class="btn btn-outline-primary mt-auto">
+                    <i class="bi bi-github"></i> Voir sur GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projet 4 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card project-card h-100">
+                <img src="assets/img/dwwm.png" class="card-img-top project-img" alt="Projet 3">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">DEVLOP'S</h5>
+                  <div class="mb-3">
+                    <span class="badge bg-primary me-2">HTML</span>
+                    <span class="badge bg-primary me-2">CSS</span>
+                    <span class="badge bg-primary me-2">JavaScript</span>
+                    <span class="badge bg-primary me-2">Bootstrap</span>
+                    <span class="badge bg-primary me-2">PHP</span>
+                    <span class="badge bg-primary me-2">MySQL</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Site portfolio responsive présentant mes compétences et réalisations. Design moderne avec animations CSS et navigation fluide.</p>
+                  <a href="https://github.com/omarslimi/Devlops/tree/main" target="_blank" class="btn btn-outline-primary mt-auto">
+                    <i class="bi bi-github"></i> Voir sur GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <section id="section5" class="d-none d-flex flex-column justify-content-center" style="flex-grow: 1;">
+        <div class="container d-flex justify-content-center">
+          <div class="card mb-3 border-0">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/img/IMG_3656.jpg" alt="bitmoji" class="img-fluid">
+              </div>
+              <div class="col-md-8 mt-5">
+                <div class="d-flex align-items-center pb-3">
+                  <span class="me-3"><i class="bi bi-geo-alt-fill"></i></span>
+                  <span class="align-self-center text-primary">Paris, Ile de france</span>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <span class="me-3"><i class="bi bi-envelope-fill"></i></span>
+                  <a href="mailto:slimi.omar126@gmail.com">slimi.omar126@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal -->
+<div class="modal fade" id="seeCV" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Mon CV</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <embed src="assets/img/SLIMI OMAR - CV.pdf" type="application/pdf" width="100%" height="600px">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">FERMER</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+    <footer style="margin-top: auto;">
+      <div class="container border-top mb-4 pt-4">
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            <p class="text-muted text-center m-0 fs-4">© <span id="currentYear"></span> SLIMI Omar</p>
+          </div>
+          <div class="col d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="https://www.linkedin.com/in/omar-slimi/" target="_blank"><i class="fs-1 bi bi-linkedin mx-2"></i></a>
+            <a class="text-muted" href="https://github.com/omarslimi" target="_blank"><i class="fs-1 bi bi-github mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+li{
+    cursor: pointer;
+}
+.active{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0.5rem;
+
+}
+.icons {
+    width: 50px;
+    height: 50px;
+}
+img, svg {
+    vertical-align: middle;
+}
+
+/* Styles pour les cards de projets */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.project-card .card-body {
+    padding: 1.5rem;
+}
+
+.project-card .card-title {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.project-card .badge {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.project-card .card-text {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.project-card .btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.project-card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
